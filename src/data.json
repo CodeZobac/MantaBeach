@@ -1,0 +1,42 @@
+[
+  {
+    "id": "hallway",
+    "src": "./media/hallway_1.jpeg",
+    "description": ""
+  },
+  {
+    "id": "room1",
+    "src": "./media/room1_1.jpeg",
+    "description": ""
+  },
+  {
+    "id": "room2",
+    "src": "./media/room2_1.jpeg",
+    "description": ""
+  },
+  {
+    "id": "kitchen",
+    "src": "./media/kitchen_1.jpeg",
+    "description": ""
+  },
+  {
+    "id": "kitchen",
+    "src": "./media/kitchen_2.jpeg",
+    "description": ""
+  },
+  {
+    "id": "livingroom",
+    "src": "./media/livingroom_1.jpeg",
+    "description": ""
+  },
+  {
+    "id": "livingroom",
+    "src": "./media/livingroom_2.jpeg",
+    "description": ""
+  },
+  {
+    "id": "garden",
+    "src": "./media/garden_1.jpeg",
+    "description": ""
+  }
+]
