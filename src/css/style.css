@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#fef6d2, #fff1b1);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+nav {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+nav ul {
+  position: absolute;
+  margin: auto, 80vw;
+  width: 100%;
+  display: flex;
+  list-style: none;
+}

@@ -37,7 +37,27 @@ export default class Gallery {
       slides[currentIndex].style.display = "block";
     };
 
-    document.querySelector("left").onclick = () => showSlide(currentIndex - 1);
-    document.querySelector("right").onclick = () => showSlide(currentIndex + 1);
+    document.querySelector("#left").onclick = () => showSlide(currentIndex - 1);
+    document.querySelector("#right").onclick = () =>
+      showSlide(currentIndex + 1);
+  }
+  addImage(image) {
+    let nextImage = null;
+    nextImage = new Portfolio(image, () => {
+      this.performImage(nextImage);
+      console.log("Image clicked");
+    });
+    if (nextImage !== null) {
+      this.images.push(nextImage);
+    }
+  }
+
+  performImage(images) {
+    if (this.#currentSlide) {
+      this.#currentSlide.active = false;
+    }
+
+    this.#currentSlide = this.images.find((slide) => slide.id === images.id);
+    this.#currentSlide.active = true;
   }
 }
